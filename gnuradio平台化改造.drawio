@@ -1,0 +1,204 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
+  <diagram name="第 1 页" id="Cy-X_RMsm-4nQh6zCgtl">
+    <mxGraphModel dx="2864" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LtqdcBZYr-royPCmHRD6-67" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="100" width="168" x="-438" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-68" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="260" width="500" x="110" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-31" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LtqdcBZYr-royPCmHRD6-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="生成流程图并运行" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-35" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LtqdcBZYr-royPCmHRD6-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="后端保存前端流程图样式，并下发给work" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-46" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LtqdcBZYr-royPCmHRD6-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="流程图转成grc_data，增加ZMQ模块，bind端口" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="初始化模块库" vertex="1">
+          <mxGeometry height="60" width="120" x="-413" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-47" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LtqdcBZYr-royPCmHRD6-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="转成grc_flow_graph&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20value%3D%22%E5%88%9D%E5%A7%8B%E5%8C%96%E6%A8%A1%E5%9D%97%E5%BA%93%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2260%22%20width%3D%22120%22%20x%3D%22294%22%20y%3D%22390%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20parent%3D%221%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20value%3D%22%E5%88%9D%E5%A7%8B%E5%8C%96%E6%A8%A1%E5%9D%97%E5%BA%93%22%20vertex%3D%221%22%3E%3CmxGeometry%20height%3D%2260%22%20width%3D%22120%22%20x%3D%22294%22%20y%3D%22390%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-48" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LtqdcBZYr-royPCmHRD6-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="生成grc文件" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-49" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="生成python文件，返回端口等信息" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-51" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-72" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-75" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="运行python文件" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="627" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-50" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="获取zmq绑定的端口，开启监听线程,connect连接gnu ZMQ" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-52" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="接收到数据、&lt;font style=&quot;color: rgb(255, 19, 74);&quot;&gt;解析信号&lt;/font&gt;后推送前端" vertex="1">
+          <mxGeometry height="60" width="120" x="706" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="230" as="sourcePoint" />
+            <mxPoint x="830" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="根据类型显示不同的图像" vertex="1">
+          <mxGeometry height="60" width="120" x="706" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="358" as="sourcePoint" />
+            <mxPoint x="830" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="模块查询" vertex="1">
+          <mxGeometry height="60" width="120" x="-70" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-30" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="缓存查询" vertex="1">
+          <mxGeometry height="60" width="120" x="-70" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-42" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LtqdcBZYr-royPCmHRD6-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="过滤、组装返回" vertex="1">
+          <mxGeometry height="60" width="120" x="-413" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-27" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LtqdcBZYr-royPCmHRD6-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-43" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LtqdcBZYr-royPCmHRD6-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="后端初始化，查询work，加载block" vertex="1">
+          <mxGeometry height="60" width="120" x="-413" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="缓存block" vertex="1">
+          <mxGeometry height="60" width="120" x="-241" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-21" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-413" y="230" as="sourcePoint" />
+            <mxPoint x="277" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-22" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-420" y="358" as="sourcePoint" />
+            <mxPoint x="270" y="358" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-23" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="810" as="sourcePoint" />
+            <mxPoint x="80" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="模块加载与查询" vertex="1">
+          <mxGeometry height="30" width="160" x="-250" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="流程构建与运行" vertex="1">
+          <mxGeometry height="30" width="180" x="420" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-29" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="LtqdcBZYr-royPCmHRD6-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="前端" vertex="1">
+          <mxGeometry height="30" width="90" x="-560" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="后端control" vertex="1">
+          <mxGeometry height="30" width="90" x="-560" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="gnuradio work（可有多个节点）" vertex="1">
+          <mxGeometry height="30" width="100" x="-560" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-41" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LtqdcBZYr-royPCmHRD6-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="启动" vertex="1">
+          <mxGeometry height="60" width="120" x="-413" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-55" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LtqdcBZYr-royPCmHRD6-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="start" vertex="1">
+          <mxGeometry height="60" width="120" x="-413" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-57" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="LtqdcBZYr-royPCmHRD6-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="start" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-58" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-413" y="810" as="sourcePoint" />
+            <mxPoint x="830" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="gnuradio&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-3.10.12.0&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="92" x="-556" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="gnuradio api" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-73" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#330000;" value="日志数据，包括异常" vertex="1">
+          <mxGeometry height="60" width="120" x="706" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="LtqdcBZYr-royPCmHRD6-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="存储进程和流程关系，便于后续停止" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
