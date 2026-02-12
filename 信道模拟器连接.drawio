@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.8">
+  <diagram name="第 1 页" id="D522sz3eIYbZifGu7H97">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DqHbW0NFInC4SARQyHoq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="340" x="221" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DqHbW0NFInC4SARQyHoq-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="通道1" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DqHbW0NFInC4SARQyHoq-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="通道5" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VnTI49OlD4CDcmd1JOql-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="信道模拟器" vertex="1">
+          <mxGeometry height="30" width="76" x="353" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="VnTI49OlD4CDcmd1JOql-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="一个通道对应输入（Rx）和输出口（Tx）" vertex="1">
+          <mxGeometry height="30" width="140" x="50" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="VnTI49OlD4CDcmd1JOql-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="卫星" vertex="1">
+          <mxGeometry height="60" width="120" x="171" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="VnTI49OlD4CDcmd1JOql-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="终端" vertex="1">
+          <mxGeometry height="60" width="120" x="496" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="VnTI49OlD4CDcmd1JOql-5" edge="1" parent="1" source="DqHbW0NFInC4SARQyHoq-2" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="VnTI49OlD4CDcmd1JOql-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="330" as="sourcePoint" />
+            <mxPoint x="120" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnTI49OlD4CDcmd1JOql-9" connectable="0" parent="VnTI49OlD4CDcmd1JOql-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Rx1" vertex="1">
+          <mxGeometry relative="1" x="-0.0079" y="-3" as="geometry">
+            <mxPoint x="-9" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnTI49OlD4CDcmd1JOql-6" edge="1" parent="1" source="VnTI49OlD4CDcmd1JOql-4" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.642;exitY=-0.033;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;exitPerimeter=0;" target="DqHbW0NFInC4SARQyHoq-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="170" as="sourcePoint" />
+            <mxPoint x="666" y="308.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnTI49OlD4CDcmd1JOql-10" connectable="0" parent="VnTI49OlD4CDcmd1JOql-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Tx1" vertex="1">
+          <mxGeometry relative="1" x="-0.1962" y="2" as="geometry">
+            <mxPoint x="19" y="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnTI49OlD4CDcmd1JOql-7" edge="1" parent="1" source="DqHbW0NFInC4SARQyHoq-3" style="endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;exitX=0.383;exitY=1.05;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="VnTI49OlD4CDcmd1JOql-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="430" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnTI49OlD4CDcmd1JOql-13" connectable="0" parent="VnTI49OlD4CDcmd1JOql-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Rx2" vertex="1">
+          <mxGeometry relative="1" x="0.1616" y="-1" as="geometry">
+            <mxPoint x="-2" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnTI49OlD4CDcmd1JOql-8" edge="1" parent="1" source="VnTI49OlD4CDcmd1JOql-3" style="endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.667;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="DqHbW0NFInC4SARQyHoq-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="586" y="410" as="sourcePoint" />
+            <mxPoint x="390" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VnTI49OlD4CDcmd1JOql-12" connectable="0" parent="VnTI49OlD4CDcmd1JOql-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Tx2" vertex="1">
+          <mxGeometry relative="1" x="-0.152" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gCoFPKgwRPYRJ726Bqet-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="绿色：链路1，上行链路，终端出卫星入&lt;div&gt;蓝色：链路2，下行链路，卫星出终端入&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="250" x="280" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
