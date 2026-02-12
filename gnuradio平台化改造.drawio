@@ -58,7 +58,7 @@
         <mxCell id="LtqdcBZYr-royPCmHRD6-51" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LtqdcBZYr-royPCmHRD6-72" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-71">
+        <mxCell id="LtqdcBZYr-royPCmHRD6-72" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LtqdcBZYr-royPCmHRD6-75" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-74">
@@ -192,7 +192,7 @@
         <mxCell id="LtqdcBZYr-royPCmHRD6-73" edge="1" parent="1" source="LtqdcBZYr-royPCmHRD6-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="LtqdcBZYr-royPCmHRD6-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LtqdcBZYr-royPCmHRD6-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#330000;" value="日志数据，包括异常" vertex="1">
+        <mxCell id="LtqdcBZYr-royPCmHRD6-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" value="准备及运行阶段的日志数据，日志包括异常和正常" vertex="1">
           <mxGeometry height="60" width="120" x="706" y="730" as="geometry" />
         </mxCell>
         <mxCell id="LtqdcBZYr-royPCmHRD6-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="存储进程和流程关系，便于后续停止" vertex="1">
